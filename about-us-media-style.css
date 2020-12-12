@@ -1,0 +1,94 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .empty {
+        display: none !important;
+    }
+    .section > .about{
+        text-align: center ;
+    }
+    .section > .about img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        width: 50%;
+    }
+    .Fahmideh > .info {
+        margin-left: 0px;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .empty {
+        display: none !important;
+    }
+    .section > .about{
+        text-align: center ;
+    }
+    .section > .about img {
+        display: block;
+        margin: 20px 320px;
+        padding: 0
+    }
+    .Fahmideh > .info {
+        margin-left: 220px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .empty {
+        display: none !important;
+    }
+    .section > .about{
+        text-align: center ;
+    }
+    .section > .about img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        width: 25%;
+    }
+    .Fahmideh > .info {
+        margin-left: 0px;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .empty {
+        display: inline-block !important;
+        width: 8%;
+    }
+    .Fahmideh > .empty {
+        width: 8%;
+    }
+    .Fahmideh > .info {
+        float: left;
+    }
+    .section > .about{
+        text-align: inherit;
+    }
+    .Fahmideh > .info {
+        margin-left: 0;
+    }
+    .Javidi > .img > img {
+        margin-left: 8%;
+        margin-top: -145px;
+    }
+    .Fahmideh > .img > img {
+        margin-right: 8%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section > .about img {
+        width: 12.5%;
+    }
+}

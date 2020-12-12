@@ -1,0 +1,267 @@
+:root {
+    --primary : #242423 ;
+    --seconder : #F5CB5C;
+    --light : #E8EDDF;
+    --success : #06D6A0;
+    --warning: #FFD166;
+    --dark : #333533;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* general styles------------------------------------------------- */
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Lalezar';
+}
+
+body {
+    padding-top: 90px;
+    background-color: var(--primary);
+    direction: rtl;
+    text-align: right;
+    font-family: 'Roboto', 'Markazi Text';
+ }
+ body p {
+     font-size: 20px;
+ }
+
+ /* general class------------------------------------------------- */
+ .bg-seconder {
+     background-color: var(--seconder) !important;
+ }
+
+ .text-secondary {
+     color: var(--seconder) !important;
+ }
+
+ .btn-light {
+     background-color: var(--light) !important;
+ }
+
+ .btn-light:hover {
+     background-color: var(--light) !important;
+ }
+
+ .bg-dark {
+     background-color: var(--primary) !important;
+ }
+
+ .text-primary {
+     color: var(--primary) !important;
+ }
+
+ .line-h2 {
+     line-height: 2em;
+ }
+ /* btn */
+ .snip1562 {
+     background-color: #c47135;
+     border: none;
+     color: #ffffff;
+     cursor: pointer;
+     display: inline-block;
+     font-family: 'BenchNine', Arial, sans-serif;
+     font-size: 1em;
+     font-size: 22px;
+     line-height: 1em;
+     margin: 15px 40px;
+     outline: none;
+     padding: 15px 20px;
+     position: relative;
+     text-transform: uppercase;
+ }
+
+ .snip1562:before,
+ .snip1562:after {
+     border-color: transparent;
+     -webkit-transition: all 0.25s;
+     transition: all 0.25s;
+     border-style: solid;
+     border-width: 0;
+     content: "";
+     height: 24px;
+     position: absolute;
+     width: 24px;
+ }
+
+ .snip1562:before {
+     border-color: var(--seconder);
+     border-left-width: 2px;
+     border-top-width: 2px;
+     left: -5px;
+     top: -5px;
+ }
+
+ .snip1562:after {
+     border-bottom-width: 2px;
+     border-color: var(--seconder);
+     border-right-width: 2px;
+     bottom: -5px;
+     right: -5px;
+ }
+
+ .snip1562:hover,
+ .snip1562.hover {
+ }
+
+ .snip1562:hover:before,
+ .snip1562:hover:before,
+ .snip1562:hover:after,
+ .snip1562:hover:after {
+     height: 100%;
+     width: 100%;
+ }
+
+ .btn-primary {
+     background-color: var(--primary);
+
+ }
+
+ .btn-primary:hover {
+     background-color: var(--primary);
+
+ }
+
+ .btn-primary::after, .btn-primary::before {
+     border-color: var(--primary);
+ }
+ /* nav----------------------------------------------------------- */
+
+ .navbar-light:hover {
+     box-shadow: 5px 5px 100px var(--seconder);
+     background-color: var(--seconder);
+ }
+
+ .navbar-light a:hover {
+     color: var(--primary) !important;
+
+ }
+
+ .navbar-light a {
+     transition: 0.5s;
+     text-decoration: none;
+     float: left;
+ }
+
+ .navbar-light {
+     background-color: var(--warning);
+     transition: 0.5s;
+   }
+
+ .navbar-nav {
+     padding-right: 80px;
+ }
+
+ nav.navbar a {
+     color: white !important;
+ }
+
+ .dropdown-toggle::after {
+     margin-left: unset;
+     margin-right: 0.255em;
+ }
+
+ .item-header-dropdown {
+     color: white;
+     transition: 0.5S;
+ }
+
+ .item-header-dropdown:hover {
+     color: black !important;
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+     color: white;
+ }
+
+ .social-links {
+     position:absolute;
+ }
+
+ .here {
+     border-bottom: 2px solid var(--light);
+ }
+
+ .here:hover {
+     border-bottom: 2px solid var(--primary);
+ }
+
+ .dropdown-menu {
+     background-color: var(--seconder) !important;
+ }
+
+ .fa-home {
+     position: relative;
+     bottom: 2px;
+ }
+ /* section_______________________________________________ */
+ section {
+     color: var(--light);
+     margin: 40px 0;
+ }
+ .section {
+     margin: 200px 0;
+ }
+ .section > .about:not(.Javidi) {
+     margin: 250px 0;
+ }
+ .empty {
+     display: inline-block;
+     border-top: 1px solid var(--warning);
+     padding-bottom: 104px;
+     width: 250px;
+     margin-left: -40px;
+ }
+ .info {
+     display: inline-block;
+     width: 300px;
+     text-align: center;
+ }
+ .info > div {
+     display: inline-block;
+ }
+ /* عکس  */
+.about > div > img {
+     height: 150px;
+     width: 150px;
+     border-radius: 50%;
+ }
+ .Javidi-img > img {
+     margin-left: 270px;
+     float: left;
+     margin-top: -150px;
+ }
+ .clear {
+     clear: both;
+ }
+  .Fahmideh > .empty {
+      padding-bottom: 0;
+      margin-top: 14px;
+      margin-right: -50px;
+      width: 250px;
+      margin-left: 0;
+  }
+ .Fahmideh > .empty , .Fahmideh > .info {
+     float: left;
+ }
+.Fahmideh-img > img {
+     float: right;
+     margin-right: 270px;
+     margin-bottom: 20px;
+}
+ /* footer---------------------------------------------------------- */
+
+ footer {
+     padding: 50px 80px;
+     background-color: var(--warning);
+  }
+
+ footer .footer-col i {
+     width: 90px;
+     font-size: 2em;
+     color: var(--warning);
+     background-color: var(--primary);
+     padding: 30px;
+     border-radius: 100%;
+ }
